@@ -1,0 +1,319 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px ;
+    
+    position: sticky;
+    top: 0;
+  }
+  li a{
+    display:block;
+    text-align: center;
+    float: left;
+    border-color: aqua;
+    border-style: dashed;
+    padding: 5px 10px;
+    margin-top: 0;
+    background-color: bisque;
+    
+  }
+  .div1{
+
+   background-image: url(pexels-cottonbro-studio-3338497.jpg);
+    background-size: cover;
+    
+    height:500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+
+
+   background-color: #e2dad1;
+   position: relative;
+}
+
+.main{
+
+    color: red;
+    border: 5px;
+    font-size: 50px;
+    margin: 100px;
+    text-align:center;
+   
+    }
+   .mainp{
+    color: blue ;
+    border:10px;
+    margin:10px;
+    width: 300px;
+    height:20px
+    text-align:left;
+    font-family: Arial;
+    font-size: 20px;
+    position: absolute;
+    
+}
+    
+section{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.div2{
+        
+        padding: 1px;
+        margin: 20px;
+        width: 300px;
+        height:300px;
+     background-color: rgb(233, 242, 242);
+     border: 2px solid pink; 
+     position: relative;
+       
+    
+}
+    img{
+        width:100%;
+        height:80%;
+    justify-items: center;
+    display: flex;
+     justify-content: center;
+     
+     
+    
+    }
+.des{
+    border: 1px solid white;
+    margin: 2px;
+    position: absolute;
+    color: blueviolet;
+   top: 250px;
+    width:30;
+        height:10;
+  
+    text-size-adjust: .6px;
+    justify-items: end;
+    
+    
+    }
+
+button{
+    border: 1px solid rgb(231, 32, 32);
+    margin: 2px;
+    top:300px;
+justify-items: baseline;
+    position: absolute;
+    
+}
+
+
+    .div2:hover{
+
+     width:400px;
+        height:400px;
+        transition: 1s all ease-in-out;
+       
+}
+
+
+    
+
+    .dett{
+        display: flex;
+        justify-content:space-between;
+        
+    }
+    
+    
+    .dett-1{
+        
+     
+ .head{
+ 
+
+   color: red;
+     border: 5px;
+     font-size: 20px;
+     margin: 100px;
+     align-items:center;
+     text-decoration-line: underline;
+     }
+     .sub{
+ 
+         color: rgb(255, 85, 0);
+           border: 5px;
+           font-size: 20px;
+           margin: 20px;
+           align-items:center;
+           text-decoration-line: underline;
+           }
+ 
+ p{
+    border: 1px solid white;
+    margin: 2px;
+    align-items:center;
+    
+    color: black;
+
+ }
+
+    .det-1{
+     color: blue ;
+     border:20px;
+     margin:20px;
+     align-items:center;
+     
+     font-family: Arial;
+     font-size: 15px;
+     display:block;
+     width: 30%;
+     }
+    }
+   
+    
+
+    
+ .end{
+     color: rgb(0, 123, 255);
+     
+     text-align:left;  
+ }
+
+
+ 
+.reg-1{
+
+    
+    border:5px solid blue;
+    margin:10px;
+    width: 450px;
+    height:200px
+    text-align:center;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+.div3{
+
+    color: red;
+    border: 5px;
+    font-size: 20px;
+    margin: 100px;
+    text-align:center;
+   
+    }
+    p{
+    color: blue ;
+    border:50px;
+    margin:50px;
+    
+    text-align:left;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+    
+section{
+    display:flex;
+    justify-content:space-around;
+    border: solid 1px pink;
+
+
+    section div{
+        margin:5px; 
+        padding: 1px;
+background-color: rgb(233, 242, 242);
+border: 2px solid pink;  
+    
+.main{
+    text-align: center;
+    color: blueviolet;
+    float: left;
+    text-size-adjust: .6px;}
+
+    }
+}
+    
+.cont{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.cont-2{
+        
+        padding: 1px;
+        margin: 20px;
+        width: 300px;
+        height:300px;
+    
+     
+    
+       
+    
+}
+    img{
+        width:100%;
+        height:80%;
+    justify-items: center;
+    display: flex;
+     justify-content: center;
+     
+     
+    
+    }
+.des{
+    border: 1px solid white;
+    margin: 2px;
+    position: absolute;
+    color: blueviolet;
+   top: 250px;
+    width:30;
+        height:10;
+  
+    text-size-adjust: .6px;
+    justify-items: end;
+    
+    
+    }
+
+
+
+    .ask-1{
+ 
+        color: rgb(255, 85, 0);
+          border: 5px;
+          font-size: 30px;
+          margin: 20px;
+          align-items:center;
+          text-decoration-line: underline;
+          }
+
+          .ask{
+
+display: flex;
+justify-content: left;}
+
+    summary {
+      padding: 4px;
+      width: 300px;
+      
+      border: none;
+    
+      cursor: pointer;
+    }
+    
+    .ask-2 {
+      background-color: #eeeeee;
+      padding: 4px;
+      margin: 5px;
+      
+    }
+    
+        
+
+
+    
